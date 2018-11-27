@@ -1,28 +1,29 @@
 window.cipher = {
-  encode: (offset, texto) => {
+  encode: (offset, string) => {
   let mensajeCifrado = "";
-  for ( let i = 0 ; i < texto.length ; i++ ) {
-   let numLetraAscii = texto.charCodeAt(i);
-    if (65 <= texto.charCodeAt(i) <= 90){
-      let numLetraNuevaconDespla = ((numLetraAscii - 65 + offset)%26 +65);
-      let nuevaLetra = String.fromCharCode(numLetraNuevaconDespla);
-       mensajeCifrado = mensajeCifrado + nuevaLetra;
-    } if (numLetraAscii === 32) {
-  mensajeCifrado = mensajeCifrado + String.fromCharCode(numLetraAscii);
+  for ( let i = 0 ; i < string.length ; i++ ) {
+    if (string[i].charCodeAt() >=65 &&  string[i].charCodeAt()<= 90){
+        let numLetraAscii = string[i].charCodeAt();
+        let numLetraNuevaconDespla = ((numLetraAscii - 65) + offset)%26 +65;
+        let nuevaLetra = String.fromCharCode(numLetraNuevaconDespla);
+         mensajeCifrado = mensajeCifrado + nuevaLetra;
+    } else{
+        mensajeCifrado = mensajeCifrado + string[i];
     }
+
  }
    return mensajeCifrado;
 },
-decode : (offset, texto) => {
+  decode : (offset, string) => {
   let mensajeDescifrado = "";
-  for ( let i = 0 ; i < texto.length ; i++ ) {
-    let numLetraAscii = texto.charCodeAt(i);
-      if (65 <= texto.charCodeAt(i) <= 90){
-       let numLetraNuevaconDespla = ((numLetraAscii + 65 - offset)%26 +65);
+  for ( let i = 0 ; i < string.length ; i++ ) {
+    if (string[i].charCodeAt() >= 65 && string[i].charCodeAt()<= 90){
+       let numLetraAscii = string[i].charCodeAt();
+       let numLetraNuevaconDespla = ((numLetraAscii + 65) - offset)%26 +65;
        let nuevaLetra = String.fromCharCode(numLetraNuevaconDespla);
        mensajeDescifrado = mensajeDescifrado + nuevaLetra;
-    } if (numLetraAscii === 32){
-     mensajeDescifrado = mensajeDescifrado + String.fromCharCode(numLetraAscii);
+    } else{
+     mensajeDescifrado = mensajeDescifrado +string[i];
     }
  }
  return mensajeDescifrado;

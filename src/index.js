@@ -5,13 +5,14 @@ const inputDespla = document.getElementById('desplazamiento');
 const inputCajados =document.getElementById('cajados');
 
 function manejadorClick(){
+
   let inputCajaunoValor = inputCajauno.value.toUpperCase();
   let inputDesplaValor = parseInt(inputDespla.value);
   let mensajeCifrado = cipher.encode(inputDesplaValor,inputCajaunoValor);
-  return inputCajados.value = mensajeCifrado;
+  inputCajados.value = mensajeCifrado;
 }
 
-botonCifrar.addEventListener("click",manejadorClick)
+botonCifrar.addEventListener("click",manejadorClick);
 
 // para el mensajeDescifrado
 const botonDescifrar = document.getElementById('boton-descifrar');
