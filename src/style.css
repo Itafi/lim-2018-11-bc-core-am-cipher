@@ -1,8 +1,14 @@
 body {
-    background:#3e83ba;
-    color: #fff;
+    background:url(C:/Users/HP/Desktop/Laboratoria/ojos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color:#001c51 ;
+
  }
 h1 {
-    color:#000000;
+    color:#001c80;
     font-size: 35px;
+}
+div {
+
 }
