@@ -4,26 +4,30 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <header>
+    <div class="row">
     <h1> EL CÓDIGO </h1>
+  </header>
+    </div>
     <h2> Información Personal Segura </h2>
-    <p> La siguiente aplicación te permitirá convertir cualquier información de texto a un nuevo texto cifrado, con la finalidad de mantener los datos que consideres personales o privados fuera de la interpretación de terceros.    </p>
+    <p> La siguiente aplicación te permitirá convertir cualquier información de texto a un nuevo texto cifrado, con la finalidad de mantener los datos que consideres personales o privados fuera de la interpretación de terceros.</p>
+
     <div id="root"></div>
-<p>Ingresa el texto a modificar</p>
 <div>
-  <input type="text" id="cajauno">
+  <textarea rows="10" cols="40" placeholder=" Ingresa el texto a modificar" id="cajauno"></textarea>
 </div>
 <div>
   <p> Ingresa un número </p>
-  <input type ="text" id="desplazamiento">
+  <input type ="text" maxlength="2" id="desplazamiento">
 </div>
 <div>
   <button type="button" id="boton-cifrar">CIFRAR</button>
   <button type="button" id="boton-descifrar">DESCIFRAR</button>
 </div>
-<p > Ubicación actual del Presidente </p>
-<input type="text" id="cajados">
+<textarea rows="10" cols="40" placeholder=" Ingresa el texto a modificar" id="cajados"></textarea>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

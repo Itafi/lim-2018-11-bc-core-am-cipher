@@ -1,14 +1,32 @@
 body {
-    background:url(C:/Users/HP/Desktop/Laboratoria/ojos.jpg);
+    background-image:url("http://blog.capacityacademy.com/wp-content/uploads/2014/10/spying2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    color:#001c51 ;
+    background-position: center center; /*centrada vertical y horizonyalmente*/
+    background-size: cover; /*La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    text-align: center;
+    color: black;
 
  }
 h1 {
-    color:#001c80;
-    font-size: 35px;
+    color:#000003;
+    font-size: 40px;
+    font-weight: bolder;
 }
-div {
 
+header{
+  background-color: #05356F;
+}
+
+
+button {
+border:none;
+background: #3a7999;
+color: #00050B;
+padding: 15px;
+font-size: 23px;
+border-radius: 15px; /*borde redondeado*/
+position: relative;
+box-sizing: border-box;
+font-family : georgia;
 }
