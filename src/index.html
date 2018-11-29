@@ -5,29 +5,34 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
   </head>
   <body>
     <header>
     <div class="row">
     <h1> EL CÓDIGO </h1>
-  </header>
     </div>
-    <h2> Información Personal Segura </h2>
-    <p> La siguiente aplicación te permitirá convertir cualquier información de texto a un nuevo texto cifrado, con la finalidad de mantener los datos que consideres personales o privados fuera de la interpretación de terceros.</p>
+    <p> Convierte información de texto a un nuevo texto cifrado y asegura
+       tus datos personales fuera de la interpretación de terceros.</p>
+    </header>
 
     <div id="root"></div>
 <div>
   <textarea rows="10" cols="40" placeholder=" Ingresa el texto a modificar" id="cajauno"></textarea>
 </div>
 <div>
-  <p> Ingresa un número </p>
+  <p id = "in"> Ingresa un número </p>
   <input type ="text" maxlength="2" id="desplazamiento">
 </div>
 <div>
   <button type="button" id="boton-cifrar">CIFRAR</button>
+</div>
+<div>
   <button type="button" id="boton-descifrar">DESCIFRAR</button>
 </div>
-<textarea rows="10" cols="40" placeholder=" Ingresa el texto a modificar" id="cajados"></textarea>
+<p id="nt"> Tu nuevo texto es : </P>
+<textarea rows="10" cols="40" id="cajados"></textarea>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
