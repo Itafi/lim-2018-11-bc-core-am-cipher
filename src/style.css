@@ -70,5 +70,7 @@ textarea {
 
 @media (max-width: 750px) {
     header {
-        font-size: 15px;
+      width: 90%;
+      margin-left: 5%;
+}
 }
