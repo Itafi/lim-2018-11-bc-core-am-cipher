@@ -2,10 +2,12 @@ body {
     background-image:url("http://blog.capacityacademy.com/wp-content/uploads/2014/10/spying2.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: top;
+    background-position: 25% 75%;
     background-size: cover; /*La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
     text-align: center;
     color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+
 
  }
 h1 {
@@ -16,47 +18,57 @@ h1 {
 }
 
 header{
-  background: white;
+  background-color: rgba(113, 115, 121, 0.6 );
   width: 70%;
   margin-left: 15%;
+
 }
+
+
 
 p{
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
-  color: #3250B0;
-}
-
-#in {
-
-  width: 50%;
-  margin-left: 25%;
   color: black;
 }
 
+#in {
+  width: 20%;
+  margin-left: 40%;
+  color: black;
+  background-color: rgba(66, 81, 126, 0.6 );
+  font-size: 17px;
+}
+
 #nt{
-  width: 50%;
-  margin-left: 25%;
+  width: 20%;
+  margin-left: 40%;
   color:black;
-  font-size: 30px;
+  font-size: 17px;
+  background-color: rgba(66, 81, 126, 0.6 );
 }
 
 button {
 border:none;
-background: #1D5395 ;
+background: #01010F;
 color:white;
 padding: 15px;
-font-size: 23px;
+font-size: 15px;
 border-radius: 15px; /*borde redondeado*/
 position: relative;
 box-sizing: border-box;
-font-family:
+font-family: 'Contrail One', cursive;
 }
 
 textarea {
-  background-color: #9CBEE7;
+  border-radius: 15px;
+
+  padding: 10px;
+  width: 20%;
+  opacity: 0.8;
 }
 
 @media (max-width: 750px) {
-    header width: 100%;
-    }
+    header {
+        font-size: 15px;
+}
