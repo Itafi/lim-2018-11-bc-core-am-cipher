@@ -2,8 +2,8 @@
 
 Un Código hace referencia al lenguaje con el que se comunica un receptor y un emisor, un lenguaje que debe ser entendido por ambos.
 La siguiente página web está creada para convertir un texto original a un código. Éste código sólo podra ser entendido por quienes accedan a dicha web y además conozcan "la llave" con la que fue transformado el texto.
-El proceso de transformación está basado en el "Cifrado César", que es un cifrado por desplazamiento ("la llave").
-https://subefotos.com/ver/?86704e546a5d15f5e6053ca2d1d535eao.jpg#codigos
+El proceso de transformación está basado en el "Cifrado César", que es un cifrado por desplazamiento ("la llave"). 
+(https://fotos.subefotos.com/86704e546a5d15f5e6053ca2d1d535eao.jpg)
 
 ## Proceso para definir el producto a nivel de experiencia e interfaz
 Quise crear un producto con utilidad real, basándome en una necesidad propia y extendiéndola a otros posibles usuarios. La necesidad (el problema) que vi, resultó de una experiencia personal en la que fui víctima de hackeo de mi cuenta de correo durante varios años. Si bien yo no mantenía información sensible o muy importante en mi cuenta, si era incómodo saber que una tercera persona podía acceder a mis datos, mis conversaciones personales o los documentos que almacenaba ahí.
