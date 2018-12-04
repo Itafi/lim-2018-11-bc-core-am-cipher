@@ -15,7 +15,7 @@ Los Usuarios finales del Producto son adultos jóvenes y adultos, de ambos sexos
 
 ## Objetivos de los Usuarios en relación al Producto
 -Seguridad: El usuario busca al utilizar la web o aplicación, la seguridad de sus datos que previamente a convertido a código para luego almacenarlos.
--confidencialidad : El usuario puede garantizar la transmición de información sensible, como contraseñas o documentos de trabajo.
+-confidencialidad : El usuario puede garantizar la transmisión de información sensible, como contraseñas o documentos de trabajo.
 
 ## Problemas que resuelve el Producto creado
 - El uso del producto creado garantiza la confidencialidad de datos que el usuario haya considerado importantes o privados, que incluyen no sólo información personal sino además de trabajo y que puedan estar almacenados en un Smartphone, un ordenador o una laptop, ya sea en correos electrónicos, mensajes de texto, documentos y aplicaciones de chat.
