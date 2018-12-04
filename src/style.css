@@ -39,6 +39,7 @@ p{
   color: black;
   background-color: rgba(0, 64, 128, 0.8  );
   font-size: 17px;
+  font-family: 'Contrail One';
   border-radius: 15px;
 }
 
@@ -46,6 +47,7 @@ p{
   width: 20%;
   margin-left: 40%;
   color:black;
+  font-family: 'Contrail One';
   font-size: 17px;
   background-color: rgba(0, 64, 128, 0.8 );
   border-radius: 15px;
@@ -59,7 +61,7 @@ padding: 15px;
 font-size: 15px;
 border-radius: 15px; /*borde redondeado*/
 position: relative;
-font-family: 'Contrail One', cursive;
+font-family: 'Contrail One';
 }
 
 textarea {
@@ -70,6 +72,9 @@ textarea {
 }
 
 @media (max-width: 750px) {
+    body{
+      background-image:url("https://image.freepik.com/vector-gratis/fondo-futuro-concepto-tecnologia-circuito-cibernetico-ojo-azul_42077-1567.jpg");
+    }
     p {
       font-size: 15px;
     }
@@ -82,11 +87,13 @@ textarea {
     }
     #nt {
       font-size: 14px;
+      color:white;
       width: 34%;
       margin-left: 33%;
     }
     #in {
       font-size: 14px;
+      color:white;
       width: 34%;
       margin-left: 33%;
     }
