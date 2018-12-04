@@ -65,7 +65,7 @@ font-family: 'Contrail One', cursive;
 textarea {
   border-radius: 15px;
   padding: 10px;
-  width: 35%;
+  width: 40%;
   opacity: 0.8;
 }
 
@@ -81,9 +81,13 @@ textarea {
       margin-left: 10%;
     }
     #nt {
-      font-size: 10px;
+      font-size: 14px;
+      width: 34%;
+      margin-left: 33%;
     }
     #in {
-      font-size: 10px;
+      font-size: 14px;
+      width: 34%;
+      margin-left: 33%;
     }
   }
