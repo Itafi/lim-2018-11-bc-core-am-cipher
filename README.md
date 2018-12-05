@@ -29,8 +29,7 @@ Los usuarios ingresan escribiendo o copiando el texto, frase o palabra que desee
 -Pude enviar mi enlace a tres personas de diferentes sexos con rango de edad entre 30 y 39 años, una de ellas bastante familiarizada con dispositivos digitales por su relación laboral y las otras dos con conocimientos generales en uso de aplicaciones y webs. Ambas lograron la funcionalidad del producto. Dos de ellas necesitaron una explicación después del envío del enlace.
 
 Maquetado inicial
-![Sin titulo](https://subefotos.com/ver/?5f66961f72cf871b95bed4d81e75b2abo.jpg#codigos)
-
+![Sin titulo](https://fotos.subefotos.com/5f66961f72cf871b95bed4d81e75b2abo.jpg)
 
 
 
