@@ -13,6 +13,9 @@ La interfaz tiene un fondo de ojos que mira directamente al usuario con la analo
 ## Principales Usuarios del Producto
 Los Usuarios finales del Producto son adultos jóvenes y adultos, de ambos sexos, que utilizan dispositivos digitales y que necesiten guardar o envíar información privada o personal, porque buscan seguridad  y confidencialidad en sus datos.
 
+## ¿ Cómo funciona ?
+Los usuarios ingresan escribiendo o copiando el texto, frase o palabra que deseen en el primer cuadro de texto, luego colocan un número hasta de dos dígitos que será la llave para los desplazamientos, después le dan click al botón "Cifrar" y el nuevo texto aparecerá en el segundo cuadro de texto. Para realizar un descifrado, realizará los mismos pasos anteriores pero le dará click al boton "Descifrar".
+
 ## Objetivos de los Usuarios en relación al Producto
 -Seguridad: El usuario busca al utilizar la web o aplicación, la seguridad de sus datos que previamente a convertido a código para luego almacenarlos.
 -confidencialidad : El usuario puede garantizar la transmisión de información sensible, como contraseñas o documentos de trabajo.
@@ -23,8 +26,10 @@ Los Usuarios finales del Producto son adultos jóvenes y adultos, de ambos sexos
 -Privacidad en el historial de conversaciones o de datos confidenciales que necesiten enviarse o recibirse.
 
 ## Testeo
--Pude enviar mi enlace a dos personas de diferentes sexos con rango de edad entre 33 y 39 años, una de ellas bastante familiarizada con dispositivos digitales por su relacipon laboral y la otra con conocimientos generales en uso de aplicaciones y webs. Ambas lograron la funcionalidad del producto, aunque necesitaron de una explicación post envío del enlace.
+-Pude enviar mi enlace a tres personas de diferentes sexos con rango de edad entre 30 y 39 años, una de ellas bastante familiarizada con dispositivos digitales por su relación laboral y las otras dos con conocimientos generales en uso de aplicaciones y webs. Ambas lograron la funcionalidad del producto. Dos de ellas necesitaron una explicación después del envío del enlace.
 
+Maquetado inicial
+![Sin titulo](https://subefotos.com/ver/?5f66961f72cf871b95bed4d81e75b2abo.jpg#codigos)
 
 
 
