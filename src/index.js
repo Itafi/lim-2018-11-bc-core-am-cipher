@@ -1,15 +1,15 @@
 //para el cifrado
 const botonCifrar = document.getElementById('boton-cifrar')
-const inputCajauno = document.getElementById('cajauno');
+const CajaUno = document.getElementById('cajauno');
 const inputDespla = document.getElementById('desplazamiento');
-const inputCajados =document.getElementById('cajados');
+const CajaDos =document.getElementById('cajados');
 
 function manejadorClick(){
 
-  let inputCajaunoValor = inputCajauno.value.toUpperCase();
+  let CajaUnoValor = CajaUno.value.toUpperCase();
   let inputDesplaValor = parseInt(inputDespla.value);
-  let mensajeCifrado = cipher.encode(inputDesplaValor,inputCajaunoValor);
-  inputCajados.value = mensajeCifrado;
+  let mensajeCifrado = cipher.encode(inputDesplaValor,CajaUnoValor);
+  CajaDos.value = mensajeCifrado;
 }
 
 botonCifrar.addEventListener("click",manejadorClick);
@@ -18,10 +18,10 @@ botonCifrar.addEventListener("click",manejadorClick);
 const botonDescifrar = document.getElementById('boton-descifrar');
 
 function manejadorClick2(){
-  let inputCajaunoValor = inputCajauno.value.toUpperCase();
+  let CajaUnoValor = CajaUno.value.toUpperCase();
   let inputDesplaValor = parseInt(inputDespla.value);
-  let mensajeDescifrado = cipher.decode(inputDesplaValor,inputCajaunoValor);
-  return inputCajados.value = mensajeDescifrado;
+  let mensajeDescifrado = cipher.decode(inputDesplaValor,CajaUnoValor);
+  return CajaDos.value = mensajeDescifrado;
 }
 
 botonDescifrar.addEventListener("click", manejadorClick2)
